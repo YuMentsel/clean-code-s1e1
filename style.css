@@ -13,11 +13,15 @@
   text-align: right;
 }
 
-.header-img {
+.header__title {
+  display: none;
+}
+
+.header__img {
   width: 100%;
 }
 
-.header .info-link {
+.header__info-link {
   font-family: fantasy, cursive;
 }
 
@@ -35,14 +39,14 @@
   margin: 0 auto 0;
 }
 
-.task-input,
-.task-label {
+.task__input_text,
+.task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.add-task-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -56,7 +60,7 @@
   list-style: none;
 }
 
-.task-input,
+.task__input_text,
 .button {
   outline: none;
 }
@@ -87,7 +91,7 @@
   text-transform: uppercase;
 }
 
-.task-input-text {
+.task__input_text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,18 +104,18 @@
   color: #888;
 }
 
-.task-input-text:focus {
+.task__input_text:focus {
   color: #333;
 }
 
 /* New Task */
 
-.add-task-title {
+.add-task__title {
   display: block;
   margin: 0 0 20px;
 }
 
-.add-task-input {
+.add-task__input {
   width: 318px;
 }
 
@@ -126,56 +130,56 @@
   align-items: center;
 }
 
-.task-label,
-.task-input-checkbox,
-.task-input-text,
+.task__label,
+.task__input_checkbox,
+.task__input_text,
 .button {
   vertical-align: middle;
 }
 
-.task-input-checkbox {
+.task__input_checkbox {
   margin: 0 10px;
 }
 
-.task-label {
+.task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-input-text {
+.task__input_text {
   width: 226px;
 }
 
-.button-img {
+.button__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button-img:hover {
+.button__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-.completed-tasks .task-label {
+.tasks_completed .task__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.task .task-input-text {
+.task .task__input_text {
   display: none;
 }
 
-.edit-mode .task-input-text {
+.task_edit-mode .task__input_text {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode .task-label {
+.task_edit-mode .task__label {
   display: none;
 }
