@@ -39,6 +39,7 @@
   margin: 0 auto 0;
 }
 
+.add-task__input_text,
 .task__input_text,
 .task__label {
   width: 56%;
@@ -60,6 +61,7 @@
   list-style: none;
 }
 
+.add-task__input_text,
 .task__input_text,
 .button {
   outline: none;
@@ -91,6 +93,7 @@
   text-transform: uppercase;
 }
 
+.add-task__input_text,
 .task__input_text {
   margin: 0;
   font-size: 18px;
@@ -104,6 +107,7 @@
   color: #888;
 }
 
+.add-task__input_text:focus,
 .task__input_text:focus {
   color: #333;
 }
@@ -132,6 +136,7 @@
 
 .task__label,
 .task__input_checkbox,
+.add-task__input_text,
 .task__input_text,
 .button {
   vertical-align: middle;
@@ -148,6 +153,7 @@
   width: 226px;
 }
 
+.add-task__input_text,
 .task__input_text {
   width: 226px;
 }
